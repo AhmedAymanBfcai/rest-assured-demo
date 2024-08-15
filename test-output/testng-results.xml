@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-15T17:52:38 EEST" name="Default suite" finished-at="2024-08-15T17:52:41 EEST" duration-ms="3054">
+  <suite started-at="2024-08-15T18:04:45 EEST" name="Default suite" finished-at="2024-08-15T18:04:48 EEST" duration-ms="3069">
     <groups>
     </groups>
-    <test started-at="2024-08-15T17:52:38 EEST" name="Default test" finished-at="2024-08-15T17:52:41 EEST" duration-ms="3054">
+    <test started-at="2024-08-15T18:04:45 EEST" name="Default test" finished-at="2024-08-15T18:04:48 EEST" duration-ms="3069">
       <class name="tests.GetAndPostExamples">
-        <test-method signature="testGet()[pri:0, instance:tests.GetAndPostExamples@49139829]" started-at="2024-08-15T17:52:38 EEST" name="testGet" finished-at="2024-08-15T17:52:41 EEST" duration-ms="2570" status="PASS">
+        <test-method signature="testGet()[pri:0, instance:tests.GetAndPostExamples@49139829]" started-at="2024-08-15T18:04:45 EEST" name="testGet" finished-at="2024-08-15T18:04:47 EEST" duration-ms="2626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGet -->
-        <test-method signature="testPost()[pri:0, instance:tests.GetAndPostExamples@49139829]" started-at="2024-08-15T17:52:41 EEST" name="testPost" finished-at="2024-08-15T17:52:41 EEST" duration-ms="437" status="PASS">
+        <test-method signature="testPost()[pri:0, instance:tests.GetAndPostExamples@49139829]" started-at="2024-08-15T18:04:47 EEST" name="testPost" finished-at="2024-08-15T18:04:48 EEST" duration-ms="391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPost -->

@@ -1,20 +1,10 @@
 package tests;
 
 import org.testng.annotations.Test;
-
 import io.restassured.http.ContentType;
-
 import org.json.simple.JSONObject;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
 import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
-
-import java.util.HashMap;
-import java.util.Map;
-
 
 public class GetAndPostExamples {
 
