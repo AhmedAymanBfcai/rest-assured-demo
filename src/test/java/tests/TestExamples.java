@@ -13,7 +13,7 @@ public class TestExamples {
 
 	String url = "https://reqres.in/api/users?page=2";
 	@Test
-	public void getTest() {
+	public void firstTest() {
 		Response response = get(url);
 		System.out.println(response.getStatusCode());
 		System.out.println(response.getTime());
@@ -24,5 +24,16 @@ public class TestExamples {
 
 		int statusCode = response.getStatusCode();
 		Assert.assertEquals(statusCode, 200);
+	}
+	
+	@Test
+	public void secondTest() {
+		// requres.in is a public API
+		baseURI = "https://reqres.in/api";
+		given().
+		  get("/users?page=2").
+		then().
+			statusCode(200).
+			body("data[1].id", equalTo(8));
 	}
 }
