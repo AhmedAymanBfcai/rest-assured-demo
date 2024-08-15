@@ -11,6 +11,7 @@ import org.apache.commons.io.IOUtils;
 import org.testng.annotations.Test;
 
 import io.restassured.http.ContentType;
+import static org.hamcrest.Matchers.*;
 
 
 public class SoapXMLRequest {
@@ -32,7 +33,9 @@ public class SoapXMLRequest {
 		when().	
 			post("/calculator.asmx").
 		then().
-			statusCode(200);
+			statusCode(200).
+		and(). 
+			body("//*:AddResult.text()", equalTo("5"));
 	}
 }
 
